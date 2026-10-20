@@ -1,0 +1,33 @@
+/*
+
+filename: lab04.css
+author: Redha Waseem
+
+created:20/10/2026
+
+last modified: 13/10/2026
+
+description: lab05.html
+
+*/
+dl {
+    border: 3px double #ccc;
+    padding: 0.5em;
+  }
+  dt {
+    clear: left;
+	float: left;
+    width: 40%;
+	text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+  dt::after {
+    content: " :"; 
+  }
+
+  dd {
+    width: 55%;
+	margin-left: 42%;
+  }
+

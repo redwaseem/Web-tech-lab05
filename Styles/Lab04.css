@@ -1,0 +1,44 @@
+/*
+
+filename: lab04.css
+author: Redha Waseem
+
+created:20/10/2026
+
+last modified: 13/10/2026
+
+description: lab05.html
+
+*/
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+h2{
+    color :rgb(0,128,128);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+aside, footer { font-style: italic; }
+h1,h2,h3 {font-family : arial;
+text-align : center;}
+table, th, td{border: 1px solid black; }
+#heading {
+         text-align : center;
+         color:red;
+         }
+.special {
+          color: darkorange;
+          font-weight:bold;
+         }      
+.month{text-align:right;}
+
+* { font-family: calibri, sans-serif;color: #2F4F4F; }
+ ol ul{ list-style-type:square; }  
+ 
+ aside:hover {
+    background-color : lightblue;
+    border-color: darkblue;
+ }
